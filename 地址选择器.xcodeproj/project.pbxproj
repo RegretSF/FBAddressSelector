@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040C85682367EBE700A76749 /* FBRegionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C85672367EBE700A76749 /* FBRegionTableCell.m */; };
+		04335E242362998C00B9463B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04335E232362998C00B9463B /* AppDelegate.m */; };
+		04335E2A2362998C00B9463B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04335E292362998C00B9463B /* ViewController.m */; };
+		04335E2D2362998C00B9463B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04335E2B2362998C00B9463B /* Main.storyboard */; };
+		04335E2F2362999000B9463B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04335E2E2362999000B9463B /* Assets.xcassets */; };
+		04335E322362999000B9463B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04335E302362999000B9463B /* LaunchScreen.storyboard */; };
+		04335E352362999000B9463B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04335E342362999000B9463B /* main.m */; };
+		04335E3F2362D61500B9463B /* FBAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04335E3E2362D61500B9463B /* FBAreaModel.m */; };
+		04335E412362F1C800B9463B /* cityList.json in Resources */ = {isa = PBXBuildFile; fileRef = 04335E402362F1C800B9463B /* cityList.json */; };
+		044062C22366C6A500C2B7D5 /* FBAddressListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044062C12366C6A500C2B7D5 /* FBAddressListView.m */; };
+		044062C52366CD3000C2B7D5 /* FBAddressContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044062C42366CD3000C2B7D5 /* FBAddressContentView.m */; };
+		0479AAD4236678EC00308B3F /* FBAddressSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479AAD3236678EC00308B3F /* FBAddressSelectorView.m */; };
+		0479AAD72366793D00308B3F /* FBAddressTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479AAD62366793D00308B3F /* FBAddressTitleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040C85662367EBE700A76749 /* FBRegionTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRegionTableCell.h; sourceTree = "<group>"; };
+		040C85672367EBE700A76749 /* FBRegionTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRegionTableCell.m; sourceTree = "<group>"; };
+		04335E1F2362998C00B9463B /* 地址选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "地址选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04335E222362998C00B9463B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04335E232362998C00B9463B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04335E282362998C00B9463B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04335E292362998C00B9463B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04335E2C2362998C00B9463B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04335E2E2362999000B9463B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04335E312362999000B9463B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04335E332362999000B9463B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04335E342362999000B9463B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04335E3D2362D61500B9463B /* FBAreaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAreaModel.h; sourceTree = "<group>"; };
+		04335E3E2362D61500B9463B /* FBAreaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAreaModel.m; sourceTree = "<group>"; };
+		04335E402362F1C800B9463B /* cityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityList.json; sourceTree = "<group>"; };
+		044062C02366C6A500C2B7D5 /* FBAddressListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAddressListView.h; sourceTree = "<group>"; };
+		044062C12366C6A500C2B7D5 /* FBAddressListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAddressListView.m; sourceTree = "<group>"; };
+		044062C32366CD3000C2B7D5 /* FBAddressContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAddressContentView.h; sourceTree = "<group>"; };
+		044062C42366CD3000C2B7D5 /* FBAddressContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAddressContentView.m; sourceTree = "<group>"; };
+		0479AAD2236678EC00308B3F /* FBAddressSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAddressSelectorView.h; sourceTree = "<group>"; };
+		0479AAD3236678EC00308B3F /* FBAddressSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAddressSelectorView.m; sourceTree = "<group>"; };
+		0479AAD52366793D00308B3F /* FBAddressTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAddressTitleView.h; sourceTree = "<group>"; };
+		0479AAD62366793D00308B3F /* FBAddressTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAddressTitleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04335E1C2362998C00B9463B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040C85692368296E00A76749 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				044062C32366CD3000C2B7D5 /* FBAddressContentView.h */,
+				044062C42366CD3000C2B7D5 /* FBAddressContentView.m */,
+				044062C02366C6A500C2B7D5 /* FBAddressListView.h */,
+				044062C12366C6A500C2B7D5 /* FBAddressListView.m */,
+				040C85662367EBE700A76749 /* FBRegionTableCell.h */,
+				040C85672367EBE700A76749 /* FBRegionTableCell.m */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		040C856A2368298300A76749 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				0479AAD52366793D00308B3F /* FBAddressTitleView.h */,
+				0479AAD62366793D00308B3F /* FBAddressTitleView.m */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		04335E162362998C00B9463B = {
+			isa = PBXGroup;
+			children = (
+				04335E212362998C00B9463B /* 地址选择器 */,
+				04335E202362998C00B9463B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04335E202362998C00B9463B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04335E1F2362998C00B9463B /* 地址选择器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04335E212362998C00B9463B /* 地址选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				04335E3D2362D61500B9463B /* FBAreaModel.h */,
+				04335E3E2362D61500B9463B /* FBAreaModel.m */,
+				0479AADB2366796700308B3F /* AddressSelector */,
+				04335E222362998C00B9463B /* AppDelegate.h */,
+				04335E232362998C00B9463B /* AppDelegate.m */,
+				04335E282362998C00B9463B /* ViewController.h */,
+				04335E292362998C00B9463B /* ViewController.m */,
+				04335E2B2362998C00B9463B /* Main.storyboard */,
+				04335E2E2362999000B9463B /* Assets.xcassets */,
+				04335E302362999000B9463B /* LaunchScreen.storyboard */,
+				04335E402362F1C800B9463B /* cityList.json */,
+				04335E332362999000B9463B /* Info.plist */,
+				04335E342362999000B9463B /* main.m */,
+			);
+			path = "地址选择器";
+			sourceTree = "<group>";
+		};
+		0479AADB2366796700308B3F /* AddressSelector */ = {
+			isa = PBXGroup;
+			children = (
+				0479AAD2236678EC00308B3F /* FBAddressSelectorView.h */,
+				0479AAD3236678EC00308B3F /* FBAddressSelectorView.m */,
+				040C856A2368298300A76749 /* TitleView */,
+				040C85692368296E00A76749 /* ContentView */,
+			);
+			path = AddressSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04335E1E2362998C00B9463B /* 地址选择器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04335E382362999000B9463B /* Build configuration list for PBXNativeTarget "地址选择器" */;
+			buildPhases = (
+				04335E1B2362998C00B9463B /* Sources */,
+				04335E1C2362998C00B9463B /* Frameworks */,
+				04335E1D2362998C00B9463B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "地址选择器";
+			productName = "地址选择器";
+			productReference = 04335E1F2362998C00B9463B /* 地址选择器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04335E172362998C00B9463B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04335E1E2362998C00B9463B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 04335E1A2362998C00B9463B /* Build configuration list for PBXProject "地址选择器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04335E162362998C00B9463B;
+			productRefGroup = 04335E202362998C00B9463B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04335E1E2362998C00B9463B /* 地址选择器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04335E1D2362998C00B9463B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04335E412362F1C800B9463B /* cityList.json in Resources */,
+				04335E322362999000B9463B /* LaunchScreen.storyboard in Resources */,
+				04335E2F2362999000B9463B /* Assets.xcassets in Resources */,
+				04335E2D2362998C00B9463B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04335E1B2362998C00B9463B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04335E2A2362998C00B9463B /* ViewController.m in Sources */,
+				04335E242362998C00B9463B /* AppDelegate.m in Sources */,
+				044062C22366C6A500C2B7D5 /* FBAddressListView.m in Sources */,
+				0479AAD4236678EC00308B3F /* FBAddressSelectorView.m in Sources */,
+				04335E352362999000B9463B /* main.m in Sources */,
+				040C85682367EBE700A76749 /* FBRegionTableCell.m in Sources */,
+				044062C52366CD3000C2B7D5 /* FBAddressContentView.m in Sources */,
+				0479AAD72366793D00308B3F /* FBAddressTitleView.m in Sources */,
+				04335E3F2362D61500B9463B /* FBAreaModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04335E2B2362998C00B9463B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04335E2C2362998C00B9463B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04335E302362999000B9463B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04335E312362999000B9463B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04335E362362999000B9463B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04335E372362999000B9463B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04335E392362999000B9463B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "地址选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04335E3A2362999000B9463B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "地址选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04335E1A2362998C00B9463B /* Build configuration list for PBXProject "地址选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04335E362362999000B9463B /* Debug */,
+				04335E372362999000B9463B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04335E382362999000B9463B /* Build configuration list for PBXNativeTarget "地址选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04335E392362999000B9463B /* Debug */,
+				04335E3A2362999000B9463B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04335E172362998C00B9463B /* Project object */;
+}
